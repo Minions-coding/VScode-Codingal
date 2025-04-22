@@ -3,7 +3,7 @@ from PIL import Image
 from io import BytesIO
 
 api_token= "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjNkNTk0ZTlkM2QyNzRhODdhZTA0NjAwOGZjZjM3ZTIyIiwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjJUMDc6MTE6MTguMjE0Njg3In0.DhAwkkAiVCDIx4LO7mkKOWEnfP5KZ6Ena0gr1_QRYd0"
-
+# https://monsterapi.ai/user/dashboard
 user_input = input("Enter a description for the image: ")
 url = "https://api.monsterapi.ai/v1/generate/txt2img"
 headers = {"Authorization": f"Bearer {api_token}"}
